@@ -17,4 +17,9 @@ Aplicação simples para contagem de palavras e caracteres em um texto enviado p
 
 ## Status
 
-🚧 Em desenvolvimento
+Aplicação publicada no Render:  
+👉 https://word-counter-app.onrender.com
+
+### Rotas disponíveis:
+- `/` → Retorna mensagem inicial
+- `/ping` → Teste de resposta

@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
+import os
 
 app = FastAPI()
 
@@ -10,3 +11,7 @@ def read_root():
 @app.get("/ping")
 def ping():
     return JSONResponse(content={"ping": "pong"})
+
+@app.get("/mode")
+def mode():
+    return {"mode": os.getenv("APP_MODE", "undefined")}

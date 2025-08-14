@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastappi import FastAPI
 from fastapi.responses import JSONResponse
 
 app = FastAPI()

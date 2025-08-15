@@ -25,6 +25,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     
-    - name: Valida execução 
+    - name: Valida execução com streamlit
       run: |
-        python -c "from app import app"
+        streamlit run app.py --headless --server.headless true --server.port 8501 sleep 5

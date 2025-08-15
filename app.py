@@ -16,3 +16,4 @@ if st.button("Contar"):
     st.write(f"Total de palavras: {len(palavras)}")
     st.write(f"Total de caracteres: {len(texto)}")
 
+#teste de CI

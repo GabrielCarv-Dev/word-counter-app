@@ -6,5 +6,5 @@ services:
     build: .
     container_name: word-counter-app
     ports:
-      - "8000:8000"
-    command: ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+      - "8501:8501"
+    command: ["streamlit", "app:app", "--host", "0.0.0.0", "--port", "8501"]

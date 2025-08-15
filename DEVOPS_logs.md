@@ -13,8 +13,8 @@ Entendi bem a estrutura e o começo dos commits.
 
 **Objetivo:** Planejar e construir o Dockerfile. Rodar o app em container.
 
-Nessa etapa aprendi a dinâmica do dockerfile e suas etapas. 
-Criação da build e fazer sua run.
+Nessa etapa aprendi a dinâmica do dockerfile e seus processos. 
+Criação da build e run.
 
 ---
 

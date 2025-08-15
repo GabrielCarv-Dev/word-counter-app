@@ -18,10 +18,10 @@
 - Copiar todo o restante depois
 
 ## Exposição da porta
-- Expor a porta 8000
+- Expor a porta 8501
 
 ## Comando final
-- Rodar: uvicorn app:app --host 0.0.0.0 --port 8000
+- Rodar: streamlit app:app --host 0.0.0.0 --port 8501
 
 ## Otimização
 - Evitar instalar coisas a mais

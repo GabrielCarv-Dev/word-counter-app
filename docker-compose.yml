@@ -7,4 +7,4 @@ services:
     container_name: word-counter-app
     ports:
       - "8501:8501"
-    command: ["streamlit", "app:app", "--host", "0.0.0.0", "--port", "8501"]
+    command: ["streamlit", "run", "app.py"]

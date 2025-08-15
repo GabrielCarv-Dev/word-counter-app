@@ -4,7 +4,7 @@ import re
 
 st.title("Contador de Palavras")
 
-st.write("Cole seu texto abaixo e clique em **Contar** para ver o resultado:")
+st.write("Cole seu texto abaixo e clique em CONTAR para ver o resultado:")
 
 texto = st.text_area("Texto para análise", height=200)
 

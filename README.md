@@ -1,5 +1,5 @@
 # Repo de estudos de práticas DevOps.
-    - Objetivos e comentários estão no DEVOPS_logs.mb
+Objetivos e comentários estão no DEVOPS_logs.mb
 
 # Word Counter App
 
@@ -22,6 +22,4 @@ Apenas para práticas e procedimentos DevOps.
 Aplicação publicada no Render:  
 👉 https://word-counter-app.onrender.com
 
-### Rotas disponíveis:
-- `/` → Retorna mensagem inicial
-- `/ping` → Teste de resposta
+

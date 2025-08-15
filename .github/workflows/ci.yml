@@ -27,4 +27,4 @@ jobs:
     
     - name: Valida execução com streamlit
       run: |
-        streamlit run app.py --headless --server.headless true --server.port 8501 sleep 5
+        streamlit run app.py --server.headless true --server.port 8501 sleep 5

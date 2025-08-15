@@ -1,17 +1,18 @@
-from fastapi import FastAPI
-from fastapi.responses import JSONResponse
-import os
+import streamlit as st
+from collections import Counter
+import re
 
-app = FastAPI()
+st.title("Contador de Palavras")
 
-@app.get("/")
-def read_root():
-    return {"message": "Hello, DevOps!"}
+st.write("Cole seu texto abaixo e clique em **Contar** para ver o resultado:")
 
-@app.get("/ping")
-def ping():
-    return JSONResponse(content={"ping": "pong"})
+texto = st.text_area("Texto para análise", height=200)
 
-@app.get("/mode")
-def mode():
-    return {"mode": os.getenv("APP_MODE", "undefined")}
+if st.button("Contar"):
+    palavras = re.findall(r'\b\w+\b', texto.lower())
+    contagem = Counter(palavras)
+
+    st.subheader("Resultados:")
+    st.write(f"Total de palavras: {len(palavras)}")
+    st.write(f"Total de caracteres: {len(texto)}")
+

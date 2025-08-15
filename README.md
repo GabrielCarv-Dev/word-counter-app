@@ -8,14 +8,13 @@ Apenas para práticas e procedimentos DevOps.
 
 ## Funcionalidades planejadas
 
-- Contar número total de palavras
-- Contar número total de caracteres
-- Retornar frequência de cada palavra
+- Monitoramento
+- AWS Cloud
 
 ## Tecnologias
 
 - Python 3
-- FastAPI
+- Streamlit
 
 ## Status
 

@@ -1,4 +1,3 @@
-
 # Registro de Etapas DevOps - word-counter-app
 
 ## Fase 1 – Estrutura Inicial e Git
@@ -38,7 +37,14 @@ CI de Github Actions é uma parte de segurança para a esteira de pushes de git.
 
 **Objetivo:** Publicar o app online e garantir que está funcional em ambiente remoto.
 
-Render ofereceu uma plataforma gratuita para testar o deploy desse estudo. 
+Render para testar o deploy desse estudo. 
+Testei o deploy direto com Docker, publiquei o app com rotas acessíveis, validei o acesso via `/` e `/ping`. 
+Depois explorei mais funcionalidades da plataforma, como inserção de variáveis de ambiente, leitura de logs de build e simulação de erros no código para ver o comportamento do deploy com falha.
 
----
+Durante o processo, alterei o app para uma versão funcional com Streamlit. O app agora tem uma interface visual simples com caixa de texto e botão para contagem de palavras.
+Também adaptei o pipeline de CI para considerar o novo formato do app, que não possui mais um objeto `app` importável como no fastapi.
+
+- Como o Render trata erros e deploys automáticos
+- A diferença entre bibliotecas da standard library e dependências externas (ex: erro ao colocar `os` no requirements)
+- A função do CI como alarme automático de problemas
 
